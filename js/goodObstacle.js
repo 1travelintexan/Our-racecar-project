@@ -1,9 +1,9 @@
 class GoodObstacle {
   constructor(gameScreen) {
     this.possibleImages = [
-      "../images/gas.png",
-      "../images/oil.png",
-      "../images/gas.png",
+      "./images/gas.png",
+      "./images/oil.png",
+      "./images/gas.png",
     ];
     this.left = Math.floor(Math.random() * (500 - 20 + 1) + 20);
     this.top = -300;
